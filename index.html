@@ -1,0 +1,109 @@
+<html>
+    <title>Touseef's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4A90E2;
+            padding: 20px;
+            color: white;
+            text-align: center;
+            border-bottom: 5px;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        p {
+            color: #333;
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+        .nav {
+            background-color: #333;
+            display: flex;
+            justify-content: center;
+            padding: 15px;
+        }
+        .button_sep {
+            background-color: #5C6BC0;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            margin: 0 10px;
+            transition: background-color 0.3s ease;
+        }
+        .button_sep:hover {
+            background-color: #3F51B5;
+        }
+        section {
+            background-color: white;
+            border-radius: 10px;
+            margin: 20px auto;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        section:hover {
+            transform: scale(1.01);
+            transition: transform 0.3s;
+        }
+        footer {
+            background-color: #4A90E2;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        img {
+            border-radius: 50%;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="WhatsApp Image 2024-12-23 at 16.48.49_e2108dda.jpg" width="150px" alt="My Image"/>
+        <h1>Touseef's Profile</h1>
+        <p>A beginner Front-end Developer. </p>
+    </header>
+    <nav class="nav">
+        <button class="button_sep">Homepage</button>
+        <button class="button_sep">About Me</button>
+        <button class="button_sep">Skills/Tools</button>
+        <button class="button_sep">Contact Me</button>
+    </nav>
+    <section>
+        <p>Hi! My name is Touseef 😊. Welcome to my portfolio. Click here to know me more in detail!</p>
+        <details>
+            
+            <p>I am from Taxila, Pakistan. My age is 20 and I am currently a university student. Nothing more to write here.</p>
+        </details>
+    </section>
+    <section>
+        <h3>Education</h3>
+        <p>I am persuing CS fron HITEC University located in Taxila , currently i am in 5th Semester.</p>
+        <p>University Link : <a href="https://www.hitecuni.edu.pk">HITEC University</a><p>
+            <p>Mail me Here: <a href="mailto:touseefurrehman5554@gmail.com">Email Address</a></p>
+    </section>
+    <section>
+        <h3>Projects</h3>
+        <p>I have created many login pages of webs. Alos this portfolio is a part of my one of starting learning projects and recently i perfrom a simple light on/off learning project using HTML, CSS, and JavaScript events.</p>
+    </section>
+    <section>
+        <h4>Bulb On/Off Project!</h4>
+        <button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+        <img id="myImage" src="pic_bulboff.gif" style="width:100px">
+        <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+    </section>
+    <footer>
+        <p>&copy; 2024 Touseef. All rights reserved.</p>
+    </footer>
+</body>
+</html>
